@@ -216,6 +216,7 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
      case ALGO_X11:          register_x11_algo         ( gate ); break;
      case ALGO_X11EVO:       register_x11evo_algo      ( gate ); break;
      case ALGO_X11GOST:      register_x11gost_algo     ( gate ); break;
+     case ALGO_X11R:         register_x11r_algo        ( gate ); break;
      case ALGO_X12:          register_x12_algo         ( gate ); break;
      case ALGO_X13:          register_x13_algo         ( gate ); break;
      case ALGO_X13SM3:       register_x13sm3_algo      ( gate ); break;

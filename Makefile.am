@@ -202,6 +202,8 @@ cpuminer_SOURCES = \
   algo/x11/x11evo.c \
   algo/x11/x11evo-4way.c \
   algo/x11/x11evo-gate.c \
+  algo/x11r/x11r.c \
+  algo/x11r/c11r.c \
   algo/x12/x12-gate.c \
   algo/x12/x12.c \
   algo/x12/x12-4way.c \

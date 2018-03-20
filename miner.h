@@ -493,6 +493,7 @@ enum algos {
         ALGO_BLAKE2S,     
         ALGO_BMW,        
         ALGO_C11,         
+        ALGO_C11R,         
         ALGO_CRYPTOLIGHT, 
         ALGO_CRYPTONIGHT, 
         ALGO_DECRED,
@@ -542,6 +543,7 @@ enum algos {
         ALGO_X11,
         ALGO_X11EVO,         
         ALGO_X11GOST,
+        ALGO_X11R,
         ALGO_X12,
         ALGO_X13,         
         ALGO_X13SM3,
@@ -570,6 +572,7 @@ static const char* const algo_names[] = {
         "blake2s",
         "bmw",
         "c11",
+        "c11r",
         "cryptolight",
         "cryptonight",
         "decred",
@@ -619,6 +622,7 @@ static const char* const algo_names[] = {
         "x11",
         "x11evo",
         "x11gost",
+        "x11r",
         "x12",
         "x13",
         "x13sm3",
@@ -755,6 +759,7 @@ Options:\n\
                           x11          Dash\n\
                           x11evo       Revolvercoin (XRE)\n\
                           x11gost      sib (SibCoin)\n\
+                          x11r         DigitalCash\n\
                           x12          Galaxie Cash (GCH)\n\
                           x13          X13\n\
                           x13sm3       hsr (Hshare)\n\
